@@ -8,6 +8,7 @@ import { HeaderComponentComponent } from './header-component/header-component.co
 import { FooterComponentComponent } from './footer-component/footer-component.component';
 import { DataTableComponentComponent } from './data.table-component/data.table-component.component';
 import { BannerPortadaComponentComponent } from './banner.portada-component/banner.portada-component.component';
+import { ItemDetailComponentComponent } from './item.detail-component/item.detail-component.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BannerPortadaComponentComponent } from './banner.portada-component/bann
     HeaderComponentComponent,
     BannerPortadaComponentComponent,
     DataTableComponentComponent,
-    FooterComponentComponent
+    FooterComponentComponent,
+    ItemDetailComponentComponent
   ],
   imports: [
     BrowserModule,
