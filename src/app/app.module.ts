@@ -1,5 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
 import { DataTableComponentComponent } from './data.table-component/data.table-component.component';
 import { BannerPortadaComponentComponent } from './banner.portada-component/banner.portada-component.component';
 import { ItemDetailComponentComponent } from './item.detail-component/item.detail-component.component';
+import { FormComponentComponent } from './form-component/form-component.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,14 @@ import { ItemDetailComponentComponent } from './item.detail-component/item.detai
     BannerPortadaComponentComponent,
     DataTableComponentComponent,
     FooterComponentComponent,
-    ItemDetailComponentComponent
+    ItemDetailComponentComponent,
+    FormComponentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent],

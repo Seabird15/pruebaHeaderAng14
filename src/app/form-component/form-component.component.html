@@ -1,0 +1,18 @@
+<div class="col-sm-12 col-md-12 col-lg-6">
+    <form [formGroup]="forms" (ngSubmit)="enviarDatos()">
+        <ds-input type="text" placeholder="Ingrese nombre" label="nombre" helpermessage=""  variant=""
+            clearable="false" value="" arialabel="" formControlName="nombre"></ds-input>
+        <ds-input type="text" placeholder="Correo" label="correo" helpermessage=""  variant=""
+            clearable="false" value="" arialabel="" formControlName="correo"></ds-input>
+            <ds-button slot="button-footer" behaviour="fluido" type="submit">Enviar</ds-button>
+    </form>
+
+    <!-- <form [formGroup]="forms" (ngSubmit)="enviarDatos()" style="margin-top: 20px;">
+        name
+        <input type="text" label="name" formControlName="name">
+        correo
+        <input type="text" label="correo" formControlName="correo">
+        <button type="submit">Enviar</button>
+    </form> -->
+
+</div>
