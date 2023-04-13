@@ -11,6 +11,7 @@ import { DataTableComponentComponent } from './data.table-component/data.table-c
 import { BannerPortadaComponentComponent } from './banner.portada-component/banner.portada-component.component';
 import { ItemDetailComponentComponent } from './item.detail-component/item.detail-component.component';
 import { FormComponentComponent } from './form-component/form-component.component';
+import { TabsComponentComponent } from './tabs-component.component/tabs-component.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormComponentComponent } from './form-component/form-component.componen
     DataTableComponentComponent,
     FooterComponentComponent,
     ItemDetailComponentComponent,
-    FormComponentComponent
+    FormComponentComponent,
+    TabsComponentComponent
   ],
   imports: [
     BrowserModule,

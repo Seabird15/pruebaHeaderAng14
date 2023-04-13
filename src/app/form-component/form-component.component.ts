@@ -20,7 +20,7 @@ export class FormComponentComponent {
     }
 
     enviarDatos(){
-        console.log(this.forms)
+        console.log(this.forms.value)
     }    
 
 }

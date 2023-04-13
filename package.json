@@ -37,6 +37,7 @@
     "@dscla/ds-item-detail": "^1.0.8",
     "@dscla/ds-search": "^1.0.0",
     "@dscla/ds-select": "^1.0.2",
+    "@dscla/ds-tabs": "^1.0.5",
     "@dscla/ds-tokens": "^1.0.5",
     "chart.js": "^3.9.1",
     "css-loader": "^6.7.3",
